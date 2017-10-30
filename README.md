@@ -1,1 +1,1 @@
-# imghost_website
+hosted at https://spark.ekur.eu/
