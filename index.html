@@ -1,139 +1,109 @@
 <!DOCTYPE html>
-<html>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
-<meta name="description" content="">
-<meta name="author" content="">
+<html lang="en">
 
 <head>
-    <title>
-        RaspberryPi custom Images
-    </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <link rel="shortcut icon" type="image/png" href="favicon.png" />
+    
+    <title>Jumbotron Template for Bootstrap</title>
+
     <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom fonts for this template -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-
-    <!-- Custom styles for this template -->
-    <link href="css/freelancer.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="footer.css">
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
 </head>
 
-<body style="background-color:powderblue;">
-    <div style="height:20px"></div>
-    <div style="border-width:5px!important;border-color:#005580!important" class="jumbotron jumbotron-fluid ">
+<body>
+
+    <div class="jumbotron">
         <div class="container">
-            <h1 class="">RaspberryPi 2/3 customized images</h1>
-            <p class="lead">Regularly building bootable SD archives based on latest debootstrap packages and compiling most recent kernel
+            <h1 ><strong>RaspberryPi 2/3 customized images</strong></h1>
+            <p>Regularly building bootable SD archives based on latest debootstrap packages and compiling most recent kernel
                 revision.
             </p>
         </div>
     </div>
-    <table style="
-    margin: 0 auto;table-layout: fixed;margin-top:40px">
-        <tr>
-            <th style="width:25%">
-                <div class="card text-white bg-custom mb-3" style="max-width: 20rem;">
-                    <!--                <div class="card-header">RPi2</div> -->
-                    <div class="card-body">
-                        <h4 class="card-title">RPi2/Stretch/ARM</h4>
-                        <p class="card-text">ARM Debian 9 stretch system for raspberry pi 2</p>
-                        <a href="images/NOV17-arm-debian9-rpi2.img" download>
+
+    <div class="container">
+        <!-- Example row of columns -->
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card-body">
+                    <h4 class="card-title">RPi2/Stretch/ARM</h4>
+                    <p class="card-text">ARM Debian 9 stretch system for raspberry pi 2</p>
+                    <a href="images/NOV17-arm-debian9-rpi2.img" download>
                     <button type="button" class="btn btn-primary" >Download</button>
                      </a>
 
-                    </div>
-                </div>
-            </th>
-            <th style="width:25%">
-                <div class="card text-white bg-custom mb-3" style="max-width: 20rem;">
-                    <!--                <div class="card-header">RPi3</div> -->
-                    <div class="card-body">
-                        <h4 class="card-title">RPi3/Stretch/ARM</h4>
-                        <p class="card-text">ARM Debian 9 stretch system for raspberry pi 3</p>
-                        <a href="images/NOV17-arm-debian9-rpi3.img" download>
-                    <button type="button" class="btn btn-primary" >Download</button>
-                     </a>
-                    </div>
-                </div>
-            </th>
-            <th style="width:25%">
-                <div class="card text-white bg-custom mb-3" style="max-width: 20rem;">
-                    <!--                <div class="card-header">RPi3</div> -->
-                    <div class="card-body">
-                        <h4 class="card-title">RPi3/Stretch/ARM64</h4>
-                        <p class="card-text">ARM64 Debian 9 stretch system for raspberry pi 3</p>
-                        <a href="images/NOV17-arm64-debian9-rpi3.img" download>
-                    <button type="button" class="btn btn-primary" >Download</button>
-                     </a>
-                    </div>
-
-                </div>
-            </th>
-            <th style="width:25%">
-                <div class="card text-white bg-custom mb-3" style="max-width: 20rem;">
-                    <!--                <div class="card-header">RPi3</div> -->
-                    <div class="card-body">
-                        <h4 class="card-title">RPi3/Kali 2017.2/ARM</h4>
-                        <p class="card-text">ARM Kali Linux rolling system for raspberrypi 3</p>
-                        <a href="images/NOV17-arm-kali_rolling-rpi3.img" download>
-                    <button type="button" class="btn btn-primary" >Download</button>
-                     </a>
-                    </div>
-
-                </div>
-            </th>
-
-        </tr>
-    </table>
-
-    <!-- Footer -->
-    <footer  class="">
-
-        <div class="footer-above">
-            <div class="container">
-                <div  class="row">
-                    <div style="margin:0 auto;height:20px" class="footer-col">
-                        <h4>Around the Web</h4>
-                    </div>
-                </div>
-                <div class="row">
-                    <div style="margin:0 auto" class="footer-col">
-                        <ul class="list-inline">
-                            <li class="list-inline-item">
-                                <a class="btn-social btn-outline" href="https://linkedin.com/in/szampardi">
-                    <i class="fa fa-fw fa-linkedin"></i>
-                  </a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a class="btn-social btn-outline" href="https://github.com/nexus166">
-                    <i class="fa fa-fw fa-github"></i>
-                  </a>
-                            </li>
-                        </ul>
-                    </div>
                 </div>
             </div>
+            <div class="col-md-4">
+                <div class="card-body">
+                    <h4 class="card-title">RPi3/Stretch/ARM</h4>
+                    <p class="card-text">ARM Debian 9 stretch system for raspberry pi 3</p>
+                    <a href="images/NOV17-arm-debian9-rpi3.img" download>
+                    <button type="button" class="btn btn-primary" >Download</button>
+                     </a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card-body">
+                    <h4 class="card-title">RPi3/Stretch/ARM64</h4>
+                    <p class="card-text">ARM64 Debian 9 stretch system for raspberry pi 3</p>
+                    <a href="images/NOV17-arm64-debian9-rpi3.img" download>
+                    <button type="button" class="btn btn-primary" >Download</button>
+                     </a>
+                </div>
+
+            </div>
+            <div class="col-md-4">
+                <div class="card-body">
+                    <h4 class="card-title">RPi3/Kali 2017.2/ARM</h4>
+                    <p class="card-text">ARM Kali Linux rolling system for raspberrypi 3</p>
+                    <a href="images/NOV17-arm-kali_rolling-rpi3.img" download>
+                    <button type="button" class="btn btn-primary" >Download</button>
+                     </a>
+                </div>
+            </div>
+
         </div>
 
-    </footer>
+        <hr>
+        <footer >
+                <div class="row">
+                    <div class="col-md-4"></div>
+                    <div class="col-md-4"  style="text-align:center"><strong>AROUND THE WEB</strong></div>
+                    <div class="col-md-4"></div>
+                </div>
+                <div class="row">
+                        <div class="col-md-4"></div>
+                        <div class="col-md-4" style="text-align:center">
+                            <a href="https://linkedin.com/in/szampardi" class="fa fa-linkedin"></a>
+                            <a href="https://github.com/nexus166" class="fa fa-github"></a>
+                        <div class="col-md-4"></div>
+                    </div>
+    
+            </footer>
+    </div>
 
 
-
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  
 </body>
 <style>
-    .bg-custom {
-        background-color: #005580
+    .footer{
+        background-color:black;
+        width:100%;
+        color:white;
     }
+    .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
 </style>
-
 </html>
